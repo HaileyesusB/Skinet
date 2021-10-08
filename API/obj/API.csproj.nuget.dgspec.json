@@ -149,6 +149,7 @@
         }
       }
     },
+<<<<<<< HEAD
     "C:\\Users\\hp\\Source\\Repos\\Skinet\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -157,6 +158,16 @@
         "projectPath": "C:\\Users\\hp\\Source\\Repos\\Skinet\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\hp\\Source\\Repos\\Skinet\\Infrastructure\\obj\\",
+=======
+    "C:\\Users\\hp\\Source\\Repos\\Skinet1\\Infrastructure\\Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hp\\Source\\Repos\\Skinet1\\Infrastructure\\Infrastructure.csproj",
+        "projectName": "Infrastructure",
+        "projectPath": "C:\\Users\\hp\\Source\\Repos\\Skinet1\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hp\\Source\\Repos\\Skinet1\\Infrastructure\\obj\\",
+>>>>>>> parent of 14e37a2 (Infrastructure is added)
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -176,8 +187,13 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
+<<<<<<< HEAD
               "C:\\Users\\hp\\Source\\Repos\\Skinet\\Core\\Core.csproj": {
                 "projectPath": "C:\\Users\\hp\\Source\\Repos\\Skinet\\Core\\Core.csproj"
+=======
+              "C:\\Users\\hp\\Source\\Repos\\Skinet1\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\hp\\Source\\Repos\\Skinet1\\Core\\Core.csproj"
+>>>>>>> parent of 14e37a2 (Infrastructure is added)
               }
             }
           }

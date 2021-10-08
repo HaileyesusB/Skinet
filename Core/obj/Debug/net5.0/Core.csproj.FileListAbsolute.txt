@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\hp\Source\Repos\Skinet1\Core\bin\Debug\net5.0\Core.deps.json
 C:\Users\hp\Source\Repos\Skinet1\Core\bin\Debug\net5.0\Core.dll
 C:\Users\hp\Source\Repos\Skinet1\Core\bin\Debug\net5.0\ref\Core.dll
@@ -21,3 +22,5 @@ C:\Users\hp\Source\Repos\Skinet\Core\obj\Debug\net5.0\Core.csproj.CoreCompileInp
 C:\Users\hp\Source\Repos\Skinet\Core\obj\Debug\net5.0\Core.dll
 C:\Users\hp\Source\Repos\Skinet\Core\obj\Debug\net5.0\ref\Core.dll
 C:\Users\hp\Source\Repos\Skinet\Core\obj\Debug\net5.0\Core.pdb
+=======
+>>>>>>> parent of 14e37a2 (Infrastructure is added)
