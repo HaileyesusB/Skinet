@@ -12,7 +12,7 @@ namespace Infrastructure.Data
         { 
         }
 
-        public DbSet<Products> products { get; set; }
+        public DbSet<Products> Products { get; set; }
 
     }
 }
