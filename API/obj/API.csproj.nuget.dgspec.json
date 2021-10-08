@@ -86,14 +86,14 @@
         }
       }
     },
-    "C:\\Users\\hp\\Source\\Repos\\Skinet\\Core\\Core.csproj": {
+    "C:\\Users\\hp\\source\\repos\\Skinet\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hp\\Source\\Repos\\Skinet\\Core\\Core.csproj",
-        "projectName": "Core",
-        "projectPath": "C:\\Users\\hp\\Source\\Repos\\Skinet\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\hp\\source\\repos\\Skinet\\Infrastructure\\Infrastructure.csproj",
+        "projectName": "Infrastructure",
+        "projectPath": "C:\\Users\\hp\\source\\repos\\Skinet\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hp\\Source\\Repos\\Skinet\\Core\\obj\\",
+        "outputPath": "C:\\Users\\hp\\source\\repos\\Skinet\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -125,94 +125,7 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
-            "System.Runtime": {
-              "target": "Package",
-              "version": "[4.3.1, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-<<<<<<< HEAD
-    "C:\\Users\\hp\\Source\\Repos\\Skinet\\Infrastructure\\Infrastructure.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\hp\\Source\\Repos\\Skinet\\Infrastructure\\Infrastructure.csproj",
-        "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\hp\\Source\\Repos\\Skinet\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hp\\Source\\Repos\\Skinet\\Infrastructure\\obj\\",
-=======
-    "C:\\Users\\hp\\Source\\Repos\\Skinet1\\Infrastructure\\Infrastructure.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\hp\\Source\\Repos\\Skinet1\\Infrastructure\\Infrastructure.csproj",
-        "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\hp\\Source\\Repos\\Skinet1\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hp\\Source\\Repos\\Skinet1\\Infrastructure\\obj\\",
->>>>>>> parent of 14e37a2 (Infrastructure is added)
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net5.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
-            "projectReferences": {
-<<<<<<< HEAD
-              "C:\\Users\\hp\\Source\\Repos\\Skinet\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\hp\\Source\\Repos\\Skinet\\Core\\Core.csproj"
-=======
-              "C:\\Users\\hp\\Source\\Repos\\Skinet1\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\hp\\Source\\Repos\\Skinet1\\Core\\Core.csproj"
->>>>>>> parent of 14e37a2 (Infrastructure is added)
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
-          "dependencies": {
             "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[5.0.9, )"
-            },
-            "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[5.0.9, )"
             }
