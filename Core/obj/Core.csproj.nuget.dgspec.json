@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hp\\Source\\Repos\\Skinet\\Core\\Core.csproj": {}
+    "C:\\Users\\hp\\source\\repos\\Skinet\\Core\\Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hp\\Source\\Repos\\Skinet\\Core\\Core.csproj": {
+    "C:\\Users\\hp\\source\\repos\\Skinet\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hp\\Source\\Repos\\Skinet\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\hp\\source\\repos\\Skinet\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\hp\\Source\\Repos\\Skinet\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\hp\\source\\repos\\Skinet\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hp\\Source\\Repos\\Skinet\\Core\\obj\\",
+        "outputPath": "C:\\Users\\hp\\source\\repos\\Skinet\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

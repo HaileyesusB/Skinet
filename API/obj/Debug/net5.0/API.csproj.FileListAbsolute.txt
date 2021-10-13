@@ -1,10 +1,9 @@
-C:\Users\hp\Source\Repos\Skinet\API\obj\Debug\net5.0\API.csproj.AssemblyReference.cache
 C:\Users\hp\Source\Repos\Skinet\API\obj\Debug\net5.0\API.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\hp\Source\Repos\Skinet\API\obj\Debug\net5.0\API.AssemblyInfoInputs.cache
 C:\Users\hp\Source\Repos\Skinet\API\obj\Debug\net5.0\API.AssemblyInfo.cs
 C:\Users\hp\Source\Repos\Skinet\API\obj\Debug\net5.0\API.csproj.CoreCompileInputs.cache
-C:\Users\hp\Source\Repos\Skinet\API\obj\Debug\net5.0\API.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\hp\Source\Repos\Skinet\API\obj\Debug\net5.0\API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\hp\Source\Repos\Skinet\API\obj\Debug\net5.0\API.csproj.AssemblyReference.cache
 C:\Users\hp\Source\Repos\Skinet\API\bin\Debug\net5.0\appsettings.Development.json
 C:\Users\hp\Source\Repos\Skinet\API\bin\Debug\net5.0\appsettings.json
 C:\Users\hp\Source\Repos\Skinet\API\bin\Debug\net5.0\API.exe
@@ -50,6 +49,7 @@ C:\Users\hp\Source\Repos\Skinet\API\bin\Debug\net5.0\Core.dll
 C:\Users\hp\Source\Repos\Skinet\API\bin\Debug\net5.0\Infrastructure.dll
 C:\Users\hp\Source\Repos\Skinet\API\bin\Debug\net5.0\Infrastructure.pdb
 C:\Users\hp\Source\Repos\Skinet\API\bin\Debug\net5.0\Core.pdb
+C:\Users\hp\Source\Repos\Skinet\API\obj\Debug\net5.0\API.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\hp\Source\Repos\Skinet\API\obj\Debug\net5.0\staticwebassets\API.StaticWebAssets.Manifest.cache
 C:\Users\hp\Source\Repos\Skinet\API\obj\Debug\net5.0\staticwebassets\API.StaticWebAssets.xml
 C:\Users\hp\Source\Repos\Skinet\API\obj\Debug\net5.0\scopedcss\bundle\API.styles.css

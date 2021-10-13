@@ -14,13 +14,31 @@ namespace Infrastructure.Repository
             _context = context;
         }
         public async Task<Products> GetProductByIDAsync(int Id) {
-            return await _context.Products.FindAsync(Id);
+            return await _context.Products
+                .Include(p => p.ProductType)
+                .Include(p => p.ProductBrand)
+                .FirstOrDefaultAsync(p => p.ID == Id);
         }
 
         public async Task<IReadOnlyList<Products>> GetProductAsync()
         {
-            return await _context.Products.ToListAsync();
+            return await _context.Products
+                .Include(p=> p.ProductType)
+                .Include(p => p.ProductBrand)
+                .ToListAsync();
+
+
            
+        }
+
+        public async Task<IReadOnlyList<ProductBrand>> GetProductBrandsAsync()
+        {
+            return await _context.ProductBrand.ToListAsync();
+        }
+
+        public async Task<IReadOnlyList<ProductType>> GetProductTypesAsync()
+        {
+            return await _context.ProductType.ToListAsync();
         }
     }
 }
