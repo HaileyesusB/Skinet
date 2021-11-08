@@ -11,10 +11,12 @@ namespace Infrastructure.Data
     public class GenericRepository<T> : IGenericRepository<T> where T : BaseEntity
     {
         private readonly StoreContext _storeContext;
-        public GenericRepository(StoreContext storeContext) 
+        public GenericRepository(StoreContext storeContext)
         {
             _storeContext = storeContext;
         }
+
+
         public async Task<T> GetByIDAsync(int id)
         {
             return await _storeContext.Set<T>().FindAsync(id);
@@ -38,6 +40,11 @@ namespace Infrastructure.Data
         private IQueryable<T> ApplySpecification(ISpecification<T> specification) 
         {
             return SpecificationEvaluator<T>.GetQuery(_storeContext.Set<T>().AsQueryable(), specification);
+        }
+
+        public async Task<int> CountAsync(ISpecification<T> specification)
+        {
+            return await ApplySpecification(specification).CountAsync();
         }
     }
 }

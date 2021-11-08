@@ -31,9 +31,6 @@ namespace Infrastructure.Repository
                 .Include(p=> p.ProductType)
                 .Include(p => p.ProductBrand)
                 .ToListAsync();
-
-
-           
         }
 
         public async Task<IReadOnlyList<ProductBrand>> GetProductBrandsAsync()
