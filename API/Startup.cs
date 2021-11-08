@@ -18,15 +18,19 @@ namespace API
         {
             _config = config;
         }
-
-        
-
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddApplicationServices();
             services.AddControllers();
             services.AddAutoMapper(typeof(MappingProfiles));
+            services.AddCors(option => {
+
+                option.AddPolicy("CorsPolicy", policy=> {
+
+                    policy.AllowAnyHeader().AllowAnyMethod().WithOrigins("https://localhost:44365");
+                });
+            });
             services.AddDbContext<StoreContext>(x => 
                        x.UseSqlite(_config.GetConnectionString("DefaultConnection")));
             
@@ -54,6 +58,8 @@ namespace API
             app.UseHttpsRedirection();
 
             app.UseRouting();
+
+            app.UseCors("CorsPolicy");
 
             app.UseStaticFiles();
 
