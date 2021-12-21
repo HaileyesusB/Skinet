@@ -59,7 +59,13 @@ namespace API
 
             app.UseRouting();
 
-            app.UseCors("CorsPolicy");
+          //  app.UseCors("CorsPolicy");
+             app.UseHttpsRedirection();  
+
+            app.UseCors(x => x
+               .AllowAnyOrigin()
+               .AllowAnyMethod()
+               .AllowAnyHeader());
 
             app.UseStaticFiles();
 

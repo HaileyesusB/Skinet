@@ -60,3 +60,4 @@ C:\Users\hp\Source\Repos\Skinet\API\obj\Debug\net5.0\API.pdb
 C:\Users\hp\Source\Repos\Skinet\API\obj\Debug\net5.0\API.genruntimeconfig.cache
 C:\Users\hp\source\repos\Skinet\API\bin\Debug\net5.0\AutoMapper.dll
 C:\Users\hp\source\repos\Skinet\API\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\hp\source\repos\Skinet\API\obj\Debug\net5.0\API.csproj.CopyComplete

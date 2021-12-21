@@ -8,6 +8,7 @@ namespace API.Dtos
     public class ProductReturnDto
     {
         public int ID { get; set; }
+        
         public string Name { get; set; }
 
         public string Descriprtion { get; set; }
