@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import {HttpClient} from '@angular/common/http';
+import {HttpClient, HttpHeaders} from '@angular/common/http';
+import { Product } from './shared/models/product';
 //import { Product } from './shared/models/product';
 
 
@@ -10,10 +11,12 @@ import {HttpClient} from '@angular/common/http';
 })
 export class AppComponent implements OnInit {
   title = 'Skinet';
- // product: Product[] | any;
+  product: Product[];
   
 
-constructor(){}
+constructor(){
+
+}
 
 ngOnInit(): void{
 /*

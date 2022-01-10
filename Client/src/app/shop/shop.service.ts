@@ -5,6 +5,7 @@ import { Pagination } from '../shared/models/Pagination';
 import { ProductTypes } from '../shared/models/productTypes';
 import{map} from 'rxjs/operators';
 import { ShopParams } from '../shared/models/shopParams';
+import { Product } from '../shared/models/product';
 
 @Injectable({
   providedIn: 'root'
@@ -20,7 +21,7 @@ export class ShopService {
 
     if(shopParams.brandId!== 0){
       
-     params = params.append('typeId' , shopParams.brandId.toString());
+     params = params.append('brandId' , shopParams.brandId.toString());
     }
 
     if(shopParams.search) {
@@ -30,7 +31,7 @@ export class ShopService {
 
     if (shopParams.typeId !== 0)
     {
-      params = params.append('brandId' , shopParams.typeId.toString());
+      params = params.append('typeId' , shopParams.typeId.toString());
     }
          params = params.append('sort', shopParams.sort);
          params = params.append('pageIndex', shopParams.pageNumber.toString());
@@ -44,7 +45,6 @@ export class ShopService {
       return response.body;
     })
     );
-    
   }
 
   getBrands()
@@ -53,7 +53,12 @@ export class ShopService {
   }
 
   getProductTypes(){
-
     return this.https.get<ProductTypes[]>(this.baseUrl + 'Product/types');
   }
+  
+  getProductsById(id: number)
+  {
+    return this.https.get<Product>(this.baseUrl + 'Product/'  + id)
+  }
+
   }

@@ -2,14 +2,16 @@
       <div class="d-flex flex-column flex-md-row align-items-center p-3 justify-content-between px-md-4 mb-3 bg-white mb-4 
       border-bottom shadow-sm fixed-top">
         
-          <img src="/assets/images/logo.png" style="max-height:70px" alt="logo">
+          <img src="/assets/images/logo.png" style="max-height:70px" alt="logo" class="logoHeader" routerLink="/">
        
         
         <nav class="my-2 my-md-0 mr-md-3 text-uppercase" style="font-size: larger;">
-          <a class="p-2 text-dark" href="#">Features</a>
-          <a class="p-2 text-dark" href="#">Enterprise</a>
-          <a class="p-2 text-dark" href="#">Support</a>
-          <a class="p-2 text-dark" href="#">Pricing</a>
+          <a class="p-2" [routerLink]="['/']" routerLinkActive="active" 
+           [routerLinkActiveOptions]="{exact: true}" 
+          >Home</a>
+          <a class="p-2" routerLink="/shop" routerLinkActive="active">Shop</a>
+          <a class="p-2" routerLink="/test-error">Errors</a>
+          
         </nav>
         <div class="d-flex align-items-center">
           <a class="position-relative">

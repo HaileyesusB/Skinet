@@ -28,7 +28,7 @@ namespace API
 
                 option.AddPolicy("CorsPolicy", policy=> {
 
-                    policy.AllowAnyHeader().AllowAnyMethod().WithOrigins("https://localhost:44365");
+                    policy.AllowAnyHeader().AllowAnyMethod().WithOrigins("https://localhost:4200/");
                 });
             });
             services.AddDbContext<StoreContext>(x => 
@@ -62,10 +62,11 @@ namespace API
           //  app.UseCors("CorsPolicy");
              app.UseHttpsRedirection();  
 
+
             app.UseCors(x => x
                .AllowAnyOrigin()
                .AllowAnyMethod()
-               .AllowAnyHeader());
+               .AllowAnyHeader());           
 
             app.UseStaticFiles();
 
